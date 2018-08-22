@@ -77,8 +77,8 @@
                  @auth
 
               
-
-                        <a href="{{ url('/home') }}" class="list-inline-item">Home</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                       <a href="{{ url('/home') }}" class="list-inline-item">Home</a>
                   
                     @else
            
