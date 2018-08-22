@@ -1,10 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.main')
 
 @section('content')
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-sm-4">
-           
+            <div class="container">
                 <div class="wrapper">
                     <nav id="sidebar">
                         <ul class="list-unstyled components">
@@ -21,7 +21,7 @@
                         </ul>
                     </nav>
                 </div>
-            
+            </div>
         </div>
         <div class="col-sm-8">
             <div class="container">
@@ -29,12 +29,10 @@
                     <div class="col-sm-12">
                         hiiiiiiiiiiiiiiiiii
                         hi
-                    </div>   
-                    <div class="col-sm-12">
-                        hiiiiii
-                        hi
                     </div>    
-                    
+                    <div class="col-sm-12">
+                        hi
+                    </div>
                 </div>
             </div>
         </div>

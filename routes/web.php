@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/main', function () {
+    return view('layouts.main');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('dashboard');
