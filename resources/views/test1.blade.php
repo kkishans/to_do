@@ -27,7 +27,7 @@
 
 .first {
   height:40vh;
-  min-height:100px;
+  min-height:200px;
   background-size:cover;
   background-image:url('https://images.unsplash.com/photo-1470434151738-dc5f4474c239?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb');
 }
