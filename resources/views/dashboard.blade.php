@@ -3,8 +3,7 @@
 @section('content')
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4">
-           
+        <div class="col-md-4">
                 <div class="wrapper">
                     <nav id="sidebar">
                         <ul class="list-unstyled components">
@@ -21,14 +20,13 @@
                         </ul>
                     </nav>
                 </div>
-            
         </div>
-        <div class="col-sm-8">
+        <div class="col-md-8">
+            
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        hiiiiiiiiiiiiiiiiii
-                        hi
+                        <img src="{{ asset('img/back.gif') }}" width="100%" height="150px">
                     </div>   
                     <div class="col-sm-12">
                         hiiiiii
