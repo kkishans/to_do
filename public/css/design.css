@@ -50,8 +50,12 @@ a:focus {
 i,
 span {
     display: inline-block;
+    margin-left: .5rem;
 }
 
+.fas ,i,span {
+    font-size: 20px;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -190,6 +194,7 @@ a.article:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
+
 
 /* ---------------------------------------------------
     CONTENT STYLE
