@@ -1,63 +1,3 @@
-<<<<<<< HEAD
-@extends('layouts.app')
-
-@section('content')
-<div class="container-fluid col-sm-12">
-    <div class="row text-center">
-        <div class="col-sm-3 col-lg-4 col-md-4">           
-                <div class="wrapper">
-                    <nav id="sidebar">
-                        <ul class="list-unstyled components">
-                            <li class="active">
-                                <a href="#" class="nav-link text-dark">My Day</a>
-                            </li>
-                            <li>
-                                <a href="#" class="nav-link text-dark"><img src="{{ asset('img/to_do.png') }}" width="12%">To-Do</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="#" class="nav-link text-dark"><img src="{{ asset('img/add-list.png') }}" width="12%">New-List</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>            
-        </div>
-
-
-        <div class="col-sm-8 col-lg-8 col-md-8" style="padding: .5rem;">
-            
-            <div class="list-group-flush">
-
-              <a href="#" class="list-group-item list-group-item-action">
-              <label class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">this is my todo list</span>
-            </label>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">
-              <label class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
-                  <span class="custom-control-description">Do Assingment</span>
-            </label>
-            </a>
-
-
-
-                <div id="button col-6">
-                    <div class="row">
-                         <input type="text" name="text-box" id="button" class="form-control" autofocus placeholder="+  Add To-Do" style="margin-top: .5rem; border:0;">
-                    </div>
-                </div>    
-
-            </div>                    
-        </div>
-        
-    </div>
-</div>
-=======
-
 <!DOCTYPE html>
 <html>
 
@@ -81,15 +21,13 @@
 
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper" style="text-align: center">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>My To-DO</h3>
                 <strong>Do</strong>
             </div>
->>>>>>> 3f8d10d6448a3e034e56c6e5a5f490ce9f5a97c8
-
             <ul class="list-unstyled components">
                 <li>
                     <i class="fas fa-sun"></i>
@@ -129,9 +67,10 @@
                 </div>
             </nav>
            
-            <div class="container-fluid" style="margin-left: -20px;margin-top: -35px">
+            <div  style="margin-left: -20px;margin-top: -35px">
                 <div class="row">
-                    <img src="{{ asset('img/back.gif') }}" width="110%" height="200px">                         
+                    <img src="{{ asset('img/back.gif') }}" width="100%" height="200px"
+                    style="margin-left:1rem">                         
                 </div>
             </div> 
         </div>        
@@ -151,9 +90,5 @@
         });
     </script>
 </body>
-
-<<<<<<< HEAD
-@endsection
-=======
 </html>
->>>>>>> 3f8d10d6448a3e034e56c6e5a5f490ce9f5a97c8
+
