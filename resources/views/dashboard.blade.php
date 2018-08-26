@@ -21,7 +21,7 @@
 
 <body>
 
-    <div class="wrapper" style="text-align: center">
+    <div class="wrapper" style="text-align: center;">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
@@ -65,6 +65,7 @@
                         </ul>
                     </div>
                 </div>
+                
             </nav>
            
             <div  style="margin-left: -20px;margin-top: -35px">
