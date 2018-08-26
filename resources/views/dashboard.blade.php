@@ -70,7 +70,7 @@
             <div  style="margin-left: -20px;margin-top: -35px">
                 <div class="row">
                     <img src="{{ asset('img/back.gif') }}" width="100%" height="200px"
-                    style="margin-left:1rem">                         
+                    style="margin-left:0.95rem">                         
                 </div>
             </div> 
         </div>        
