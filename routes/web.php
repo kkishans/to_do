@@ -20,7 +20,7 @@ Route::get('/test1', function () {
 });
 
 Route::get('/main', function () {
-    return view('layouts.main');
+    return view('main');
 });
 
 Auth::routes();

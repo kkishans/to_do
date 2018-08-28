@@ -21,11 +21,11 @@
 
 <body>
 
-    <div class="wrapper" style="text-align: center;">
+    <div class="wrapper text-center">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>My To-DO</h3>
+                <h3>My To-Do</h3>
                 <strong>Do</strong>
             </div>
             <ul class="list-unstyled components">
@@ -74,7 +74,20 @@
                     style="margin-left:0.95rem">                         
                 </div>
             </div> 
-        </div>        
+
+
+            <main>
+                 @yield('content')
+            </main>
+
+
+
+        </div>    
+
+    
+
+           
+            
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
