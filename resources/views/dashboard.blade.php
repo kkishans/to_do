@@ -17,6 +17,30 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
+<style type="text/css">
+    
+    ul {
+    /*border-top: 2px solid white;*/
+    list-style: none;
+    /*display: none;*/
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0 1rem 0 1rem;
+}
+.checkboxes {
+    float: right;
+    line-height: 15px;
+    width: 17px;
+    height: 17px;
+    background-color: #e9ecef;
+    border: 1px solid #e9ecef;
+    border-radius: 3px;
+}
+
+</style>
 </head>
 
 <body>
