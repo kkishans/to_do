@@ -49,7 +49,9 @@ window.onload = function() {
 				btnClr.style.display = "inline";
 			}
 			var text = input.value;	
-			var item = `<li id="li-${id}">${text}<input id="box-${id}" 			class="checkboxes" type="checkbox"></li>`;				
+			
+			var item = `<li id="li-${id}">  ${text}<input id="box-${id}"
+					 	class="checkboxes" type="checkbox"></li>`;				
 			list.insertAdjacentHTML('beforeend', item);	
 			liItem = {item: text, checked: false};
 			todoList.push(liItem);		

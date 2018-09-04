@@ -4,9 +4,13 @@
 
 	<div class="container-fluid text-left">
 
-			<div class="row list-group list-group-flush" style=" width:80%; font-size: 20px;">				
+			<div class="row list-group list-group-flush" style=" width:100%; font-size: 20px;">				
 				<ul id="list" type="none" >
-					<li hidden ><input type="checkbox" class="checkbox" hidden></li>
+					<li hidden>
+						<div class="custom-control custom-checkbox mr-sm-2">
+        					<input type="checkbox" class="custom-control-input">
+        				</div>
+					</li>
 				
 				</ul>
 			</div>
@@ -15,14 +19,13 @@
 		<ul class="list-group list-group-flush">
 		  	<form id="form" >
 				<div class="input-group row">
-					<div class="col-md-8">
-						<input type="text" id ="input" name="todobox" placeholder=" + Add To-Do" style="border:0; width:100%; font-size: 22px; margin-left: 2rem; margin-top: 1rem; ">
+					<div class="input-group mb-3">
+  						<input type="text" id ="input" name="todobox" placeholder=" + Add To-Do"  class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" 
+  						style="margin-left: 3.5rem;">
+  						<div class="input-group-append" >
+   							<button id="btn" type="button" class="btn btn-primary">Add to-do</button>
+  						</div>
 					</div>
-					<div class="col-md-4">	
-					<span>
-						<button id="btn" type="button" class="btn btn-primary" style="  margin-top: .6rem; ">Add to-do</button>
-					</span>
-				</div>
 				 </div>			     
 			</form>
 		</ul>
