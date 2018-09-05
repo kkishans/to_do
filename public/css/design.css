@@ -164,11 +164,12 @@ span {
     color: white;
 }
 
-#sidebar button.active{
+#sidebar button.active ,button.clicked{
+     font-size: 1.2rem;
      background-color: #6d7fcc;
 }
 #sidebar button:hover{
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      border-color: lightblue;
 
 }

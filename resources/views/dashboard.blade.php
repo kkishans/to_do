@@ -1,3 +1,8 @@
+<?php 
+
+   
+ ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -31,16 +36,17 @@
             </div>
             <ul class="list-unstyled components">
                 
-                     <button type="button" class="list-group-item list-group-item-action">
+                     <button type="button" class="list-group-item list-group-item-action"
+                     id="some_id1" onclick="resetElement()">
                     <i class="fas fa-sun"></i><span> My Day</span></a></button>
                 
-                    <button type="button" class="list-group-item list-group-item-action active">
+                    <button type="button" class="list-group-item list-group-item-action">
                     <i class="fas fa-check"></i>
                     <span>To-Do</span></button>
 
-                     <button type="button" class="list-group-item list-group-item-action" hidden>
+                     <button type="button" class="list-group-item list-group-item-action" hidden id="block">
                     <i class="fas fa-plus"></i>
-                    <span>New-List</span></button>
+                    <span>kishan </span></button>
                
                     <button type="button" class="list-group-item list-group-item-action">
                     <i class="fas fa-plus"></i>

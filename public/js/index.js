@@ -110,3 +110,9 @@ window.onload = function() {
 		list.style.borderTop = "";
 	}
 }
+
+	//for   add list  from user
+
+	function resetElement() {
+    document.getElementById("list_id1").style.display = "block";
+}
