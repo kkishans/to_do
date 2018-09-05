@@ -157,6 +157,21 @@ span {
 #sidebar ul li a i {
     margin-right: 10px;
 }
+#sidebar button{
+    background-color: #6d7fcc;
+    margin-bottom: 1rem;
+    border-color: none;
+    color: white;
+}
+
+#sidebar button.active{
+     background-color: #6d7fcc;
+}
+#sidebar button:hover{
+     font-size: 1.5rem;
+     border-color: lightblue;
+
+}
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {

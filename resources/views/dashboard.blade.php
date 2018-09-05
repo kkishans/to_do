@@ -30,21 +30,23 @@
                 <strong>Do</strong>
             </div>
             <ul class="list-unstyled components">
-                <li>
-                    <i class="fas fa-sun"></i>
-                    <span>My Day</span>
-                </li>
-                <li>
+                
+                     <button type="button" class="list-group-item list-group-item-action">
+                    <i class="fas fa-sun"></i><span> My Day</span></a></button>
+                
+                    <button type="button" class="list-group-item list-group-item-action active">
                     <i class="fas fa-check"></i>
-                    <span>TO-DO</span>
-                </li>
-            </ul>
-            <ul class="list-unstyled components">
-                <li>
+                    <span>To-Do</span></button>
+
+                     <button type="button" class="list-group-item list-group-item-action" hidden>
                     <i class="fas fa-plus"></i>
-                    <span>New-List</span>
-                </li>
+                    <span>New-List</span></button>
+               
+                    <button type="button" class="list-group-item list-group-item-action">
+                    <i class="fas fa-plus"></i>
+                    <span>New-List</span></button>
             </ul>
+            
         </nav>
 
         <!-- Page Content  -->
