@@ -19,17 +19,15 @@ Route::get('/test1', function () {
     return view('test1');
 });
 
-Route::get('/main', function () {
-    return view('main');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('dashboard');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/main', 'HomeController@main')->name('main');
+
 
 Auth::routes();
 

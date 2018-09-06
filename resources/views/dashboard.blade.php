@@ -34,14 +34,14 @@
                 <h3>My To-Do</h3>
                 <strong>Do</strong>
             </div>
-            <ul class="list-unstyled components">
+            <ul class="list-unstyled components" style="margin-top: .7rem;">
                 
                      <button type="button" class="list-group-item list-group-item-action"
-                     id="some_id1" onclick="resetElement()">
+                     onclick="myFunction()">
                     <i class="fas fa-sun"></i><span> My Day</span></a></button>
                 
                     <button type="button" class="list-group-item list-group-item-action">
-                    <i class="fas fa-check"></i>
+                    <i class="fas fa-check" ></i>
                     <span>To-Do</span></button>
 
                      <button type="button" class="list-group-item list-group-item-action" hidden id="block">
@@ -140,6 +140,13 @@
                 $('#sidebar').toggleClass('active');
             });
         });
+
+        var x = document.getElementById("block");
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+         x.style.display = "block";
+    }
+
     </script>
 </body>
 </html>

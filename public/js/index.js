@@ -12,10 +12,14 @@ window.onload = function() {
 	var btn = document.getElementById("btn");
 	var list = document.getElementById("list");	
 	var btnClr = document.getElementById("btnClr");	
+	var btn1 =document.getElementById("block")
 	var id = 1;
 	// listItem = {item: "todo item", checked: flase}
 	var liItem = "";
 	var todoList = [];
+
+	//button event listener
+	btn.addEventListener("click", addTodoItem);
 
 	//button event listener
 	btn.addEventListener("click", addTodoItem);
@@ -113,6 +117,3 @@ window.onload = function() {
 
 	//for   add list  from user
 
-	function resetElement() {
-    document.getElementById("list_id1").style.display = "block";
-}

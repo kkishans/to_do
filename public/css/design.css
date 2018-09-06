@@ -164,7 +164,7 @@ span {
     color: white;
 }
 
-#sidebar button.active ,button.clicked{
+#sidebar button.active{
      font-size: 1.2rem;
      background-color: #6d7fcc;
 }
